@@ -1,7 +1,8 @@
 :root {
-  --body-bg-color: #4D0F10;
+  --body-bg-color-texto: #4D0F10;
+  --body-bg-color-titulo: #BA8712;
+  --body-bg-color-fundo:#FBFAFF;
   --body-bg-color: #FFDE59;
-  --body-bg-color: #BA8712;
   --body-bg-color: #C69016;
   --body-bg-color: #7F5C0B;
   --body-bg-color: #040301;
@@ -9,10 +10,13 @@
 }
 
 body {
- 
   padding-bottom: 3rem;
-  color: var(--body-bg-color);
-}
+ 
+ 
+  }
+  /* main{
+background-color: var(--body-bg-color-fundo);
+  } */
 
 .carousel {
   margin-bottom: 4rem;

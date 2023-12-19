@@ -20,51 +20,87 @@
     />
     <meta
       name="keywords"
-      content="HTMLS, CSS"
+      content="HTMLS, CSS, js"
     />
+    <!-- favicon -->
     <link
       rel="shortcut icon"
       href="./public/assets/logo2.png"
       type="image/x-icon"
     />
-
+    <!-- bs -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
-      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <!-- icon bs -->
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <!-- fonte -->
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
       rel="stylesheet"
     />
-
+    <link
+      rel="stylesheet"
+      href="./public/css/style.css"
+    />
     <title>Terapeuta de Valor</title>
   </head>
 
   <body>
-    <header class="row">
-      <div class="col">
-        <nav class="navbar justify-content-around">
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid r">
           <a
             class="navbar-brand"
-            href="#"
-            >&middot; Sobre
-          </a>
-          <a
-            class="nav-link active"
-            aria-current="page"
-            href="https://wa.me/+5551999424710"
+            id="logo-link"
             target="_blank"
-            >&middot; Marque sua Consulta</a
           >
-          <a
-            class="nav-link"
-            href="./blog.html"
-            >&middot; Blog
           </a>
-        </nav>
-      </div>
+          <div class="form-check form-switch">
+            <input
+              class="form-check-input"
+              type="checkbox"
+              role="switch"
+              id="toogle-theme"
+            />
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavDropdown"
+            aria-controls="navbarNavDropdown"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse"
+            id="navbarNavDropdown"
+          >
+            <ul
+              class="navbar-nav"
+              id="links-menu"
+            ></ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <main>
@@ -157,8 +193,63 @@
         </button>
       </div>
       <!-- informaçoes sobre -->
-      <div class="container marketing">
+      <div
+        class="container marketing"
+        id="sobre"
+      >
         <hr class="featurette-divider" />
+
+        <div
+          class="row featurette d-flex justify-content-center align-items-center text-center"
+        >
+          <div class="col-md-7">
+            <h1 class="featurette-heading fw-normal lh-1">
+              Terapeuta de Valor
+            </h1>
+            <h5 class="text-muted">
+              Um subtitulo para explicar o que é a terapia de valor
+            </h5>
+            <p class="lead">
+              Aqui vai um resumo da terapia de valor, para chamar a atençaõ dos
+              leitores.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              src="./public/assets/terno3.jpg"
+              alt="imagem do logotipo"
+            />
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div
+          class="row featurette d-flex justify-content-center align-items-center text-center"
+          id="especialidades"
+        >
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Sou especializado em:
+            </h2>
+            <h5 class="text-muted">
+              Leitura Fisiogonomica (traços da sua fisionomia), sintomas
+              físicos, traumas emocionais derivados de heranças hereditárias e
+              transgeracional.
+            </h5>
+            <p class="lead">Colocar um resuminho geral de tudo dita a cima.</p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              width="500"
+              height="500"
+              src="./public/assets/terno1.jpg"
+              alt=""
+            />
+          </div>
+        </div>
         <div
           class="row featurette d-flex justify-content-center align-items-center text-center"
         >
@@ -186,35 +277,13 @@
           </div>
         </div>
         <hr class="featurette-divider" />
-        <div
-          class="row featurette d-flex justify-content-center align-items-center text-center"
-        >
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">
-              Sou especializado em:
-            </h2>
-            <h5 class="text-muted">
-              Leitura Fisiogonomica (traços da sua fisionomia), sintomas
-              físicos, traumas emocionais derivados de heranças hereditárias e
-              transgeracional.
-            </h5>
-            <p class="lead">Colocar um resuminho geral de tudo dita a cima.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              src="./public/assets/terno1.jpg"
-              alt=""
-            />
-          </div>
-        </div>
-        <hr class="featurette-divider" />
       </div>
 
       <!-- blog -->
-      <div class="container">
+      <div
+        class="container"
+        id="blog"
+      >
         <div
           class="row d-flex justify-content-around align-items-center text-center"
         >
@@ -229,7 +298,7 @@
               <div class="card-body">
                 <h5 class="card-title">Titulo do topico</h5>
                 <p class="card-text">
-                  Aqui vai uma breve descição da materia do blog
+                  Aqui vai uma breve descrição da materia do blog
                 </p>
                 <a
                   href="#"
@@ -249,7 +318,7 @@
               <div class="card-body">
                 <h5 class="card-title">Titulo do topico</h5>
                 <p class="card-text">
-                  Aqui vai uma breve descição da materia do blog
+                  Aqui vai uma breve descrição da materia do blog
                 </p>
                 <a
                   href="#"
@@ -269,7 +338,7 @@
               <div class="card-body">
                 <h5 class="card-title">Titulo do topico</h5>
                 <p class="card-text">
-                  Aqui vai uma breve descição da materia do blog
+                  Aqui vai uma breve descrição da materia do blog
                 </p>
                 <a
                   href="#"
@@ -333,5 +402,6 @@
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="./public/js/index.js"></script>
   </body>
 </html>
