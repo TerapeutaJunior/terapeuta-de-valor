@@ -1,28 +1,32 @@
 const conteudo = {
     links: [
         {
+            titulo: 'Home',
+            href: '#myCarousel'
+        },
+        {
             titulo: 'Sobre',
             href: '#sobre'
+
         },
         {
             titulo: 'Especialidades',
             href: '#especialidades',
         },
         {
-            titulo: 'Blog',
-            href: '#blog'
-        },
-        {
-            titulo: 'home',
-            href: '#'
-        }, 
-        {
+
+
             titulo: 'Benefícios',
             href: '#beneficios'
         },
         {
             titulo: 'Depoimentos',
             href: '#depoimentos'
+        },
+        {
+
+            titulo: 'Blog',
+            href: '#blog'
         },
         {
             titulo: 'Marque sua Consulta',

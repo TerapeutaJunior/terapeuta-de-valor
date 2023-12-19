@@ -1,407 +1,224 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      http-equiv="X-UA-Compatible"
-      content="IE=edge"
-    />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0"
-    />
-    <meta
-      name="author"
-      content="Sheila Acunha"
-    />
-    <meta
-      name="description"
-      content="Terapeuta de Valor"
-    />
-    <meta
-      name="keywords"
-      content="HTMLS, CSS, js"
-    />
-    <!-- favicon -->
-    <link
-      rel="shortcut icon"
-      href="./public/assets/logo2.png"
-      type="image/x-icon"
-    />
-    <!-- bs -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-      crossorigin="anonymous"
-    />
-    <!-- icon bs -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
-    />
-    <!-- fonte -->
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="./public/css/style.css"
-    />
-    <title>Terapeuta de Valor</title>
-  </head>
 
-  <body>
-    <header>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid r">
-          <a
-            class="navbar-brand"
-            id="logo-link"
-            target="_blank"
-          >
-          </a>
-          <div class="form-check form-switch">
-            <input
-              class="form-check-input"
-              type="checkbox"
-              role="switch"
-              id="toogle-theme"
-            />
-          </div>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse"
-            id="navbarNavDropdown"
-          >
-            <ul
-              class="navbar-nav"
-              id="links-menu"
-            ></ul>
-          </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Sheila Acunha" />
+  <meta name="description" content="Terapeuta de Valor" />
+  <meta name="keywords" content="HTMLS, CSS, js" />
+  <!-- favicon -->
+  <link rel="shortcut icon" href="./public/assets/logo2.png" type="image/x-icon" />
+  <!-- bs -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  <!-- icon bs -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css" />
+  <!-- fonte -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./public/css/style.css" />
+  <title>Terapeuta de Valor</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container-fluid r">
+        <a class="navbar-brand" id="logo-link" target="_blank">
+        </a>
+        <div class="form-check form-switch">
+          <input class="form-check-input" type="checkbox" role="switch" id="toogle-theme" />
         </div>
-      </nav>
-    </header>
-
-    <main>
-      <!-- carrosel banner -->
-      <div
-        id="myCarousel"
-        class="carousel carousel-dark slide"
-      >
-        <div class="carousel-indicators">
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="0"
-            class="active"
-            aria-current="true"
-            aria-label="Slide 1"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="1"
-            aria-label="Slide 2"
-          ></button>
-          <button
-            type="button"
-            data-bs-target="#myCarousel"
-            data-bs-slide-to="2"
-            aria-label="Slide 3"
-          ></button>
-        </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img
-              class="bd-placeholder-img"
-              width="100%"
-              src="./public/assets/faixa-banner.png"
-              alt=""
-            />
-          </div>
-          <div class="carousel-item">
-            <img
-              class="bd-placeholder-img"
-              width="100%"
-              src="./public/assets/faixa-banner-2.png"
-              alt=""
-            />
-          </div>
-
-          <div class="carousel-item">
-            <a
-              class="btn"
-              href="https://wa.me/+5551999424710"
-              target="_blank"
-            >
-              <img
-                class="bd-placeholder-img"
-                width="100%"
-                src="./public/assets/faixa-banner-3.png"
-                alt=""
-            /></a>
-
-            <div
-              class="carousel-caption align-items-center d-flex justify-content-end align-items-center"
-            ></div>
-          </div>
-        </div>
-        <button
-          class="carousel-control-prev"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="prev"
-        >
-          <span
-            class="carousel-control-prev-icon"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Previous</span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
-        <button
-          class="carousel-control-next"
-          type="button"
-          data-bs-target="#myCarousel"
-          data-bs-slide="next"
-        >
-          <span
-            class="carousel-control-next-icon"
-            aria-hidden="true"
-          ></span>
-          <span class="visually-hidden">Next</span>
-        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav" id="links-menu"></ul>
+        </div>
       </div>
-      <!-- informaçoes sobre -->
-      <div
-        class="container marketing"
-        id="sobre"
-      >
-        <hr class="featurette-divider" />
+    </nav>
+  </header>
 
-        <div
-          class="row featurette d-flex justify-content-center align-items-center text-center"
-        >
-          <div class="col-md-7">
-            <h1 class="featurette-heading fw-normal lh-1">
-              Terapeuta de Valor
-            </h1>
-            <h5 class="text-muted">
-              Um subtitulo para explicar o que é a terapia de valor
-            </h5>
-            <p class="lead">
-              Aqui vai um resumo da terapia de valor, para chamar a atençaõ dos
-              leitores.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              src="./public/assets/terno3.jpg"
-              alt="imagem do logotipo"
-            />
-          </div>
+  <main class="bg-body-tertiary">
+    <!-- carrosel banner -->
+    <div id="myCarousel" class="carousel carousel-dark slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="bd-placeholder-img" width="100%" src="./public/assets/faixa-banner.png" alt="" />
         </div>
-        <hr class="featurette-divider" />
-        <div
-          class="row featurette d-flex justify-content-center align-items-center text-center"
-          id="especialidades"
-        >
-          <div class="col-md-7 order-md-2">
-            <h2 class="featurette-heading fw-normal lh-1">
-              Sou especializado em:
+        <div class="carousel-item">
+          <img class="bd-placeholder-img" width="100%" src="./public/assets/faixa-banner-2.png" alt="" />
+        </div>
+
+        <div class="carousel-item">
+          <a class="btn" href="https://wa.me/+5551999424710" target="_blank">
+            <img class="bd-placeholder-img" width="100%" src="./public/assets/faixa-banner-3.png" alt="" /></a>
+
+          <div class="carousel-caption align-items-center d-flex justify-content-end align-items-center"></div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- sessoes -->
+    <div class="container marketing" id="sobre">
+      <hr class="featurette-divider" />
+      <!-- resumo sobre a terapia de valor e sobre -->
+      <div class="row featurette d-flex justify-content-center align-items-center text-center">
+        <div class="col-md-7">
+          <h1 class="featurette-heading fw-normal lh-1">
+            Terapeuta de Valor
+          </h1>
+          <h5 class="text-muted">
+            Um subtitulo para explicar o que é a terapia de valor
+          </h5>
+          <p class="lead">
+            Aqui vai um resumo da terapia de valor, para chamar a atençaõ dos
+            leitores. Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Aspernatur, esse. Quam incidunt in ipsam dolores, veritatis libero
+            quod nisi distinctio soluta culpa? Odit quo excepturi quam dolor?
+            Deleniti, quibusdam sed. Lorem, ipsum dolor sit amet consectetur
+            adipisicing elit. Pariatur rerum at reprehenderit, animi quas
+            doloremque ad maiores sunt incidunt quo voluptatem! Est aliquam
+            enim corporis error aut, mollitia vitae cupiditate?
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="./public/assets/terno3-sem-fundo.png" alt="imagem do logotipo" />
+        </div>
+      </div>
+      <hr class="featurette-divider" />
+      <!-- resumo especialidades -->
+      <div class="row featurette d-flex justify-content-center align-items-center text-center" id="especialidades">
+        <div class="col-md-7 order-md-2">
+          <h23 class="featurette-heading fw-normal lh-1">
+            Um resumo da vida bem curtinho
             </h2>
             <h5 class="text-muted">
               Leitura Fisiogonomica (traços da sua fisionomia), sintomas
               físicos, traumas emocionais derivados de heranças hereditárias e
               transgeracional.
             </h5>
-            <p class="lead">Colocar um resuminho geral de tudo dita a cima.</p>
-          </div>
-          <div class="col-md-5 order-md-1">
-            <img
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              src="./public/assets/terno1.jpg"
-              alt=""
-            />
-          </div>
+            <p class="lead">Colocar um resuminho geral de tudo dita a cima. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non repudiandae id quas voluptate unde et qui quaerat neque commodi enim voluptatum officia, odit eos in hic soluta quidem, laboriosam officiis?</p>
         </div>
-        <div
-          class="row featurette d-flex justify-content-center align-items-center text-center"
-        >
-          <div class="col-md-7">
-            <h2 class="featurette-heading fw-normal lh-1">
-              Tenho especialidade na
-            </h2>
-            <h5 class="text-muted">Nova medicina Germãnica,</h5>
-            <p class="lead">
-              essa especialidade foi criada pelo médico alemão Dr.Hamer em 1984.
-              A Nova Medicina Germânica proporciona ao paciente uma nova visão
-              sobre as doenças. Por meio da observação dos sinais e sintomas do
-              paciente, buscamos compreender a relação entre as emoçoes e
-              patologias.
-            </p>
-          </div>
-          <div class="col-md-5">
-            <img
-              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
-              width="500"
-              height="500"
-              src="./public/assets/terno3.jpg"
-              alt="imagem do logotipo"
-            />
-          </div>
+        <div class="col-md-5 order-md-1">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="./public/assets/terno1.jpg" alt="" />
         </div>
-        <hr class="featurette-divider" />
+      </div><hr class="featurette-divider" />
+      <!-- resumo beneficios -->
+      <div class="row featurette d-flex justify-content-center align-items-center text-center">
+        <div class="col-md-7">
+          <h2 class="featurette-heading fw-normal lh-1">
+            Tenho especialidade na
+          </h2>
+          <h5 class="text-muted">Nova medicina Germãnica,</h5>
+          <p class="lead">
+            essa especialidade foi criada pelo médico alemão Dr.Hamer em 1984.
+            A Nova Medicina Germânica proporciona ao paciente uma nova visão
+            sobre as doenças. Por meio da observação dos sinais e sintomas do
+            paciente, buscamos compreender a relação entre as emoçoes e
+            patologias.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
+            height="500" src="./public/assets/terno1-sem-fundo.png" alt="imagem do logotipo" />
+        </div>
       </div>
+          <hr class="featurette-divider" />
+    </div>
+      <!-- depoimentos -->
+      <div class="container">depoimentos       <hr class="featurette-divider" />
+</div>
 
-      <!-- blog -->
-      <div
-        class="container"
-        id="blog"
-      >
-        <div
-          class="row d-flex justify-content-around align-items-center text-center"
-        >
-          <h2 class="text-muted">Titulo do blog</h2>
-          <div class="col-xl-3 col-lg-4 col-md-4 text-center">
-            <div class="card card-blog">
-              <img
-                src="./public/assets/logo.jpeg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Titulo do topico</h5>
-                <p class="card-text">
-                  Aqui vai uma breve descrição da materia do blog
-                </p>
-                <a
-                  href="#"
-                  class="btn btn-secondary"
-                  >Leia mais &raquo;</a
-                >
-              </div>
+    <!-- blog -->
+    <div class="container" id="blog">
+      <div class="row d-flex justify-content-around align-items-center text-center">
+        <h2 class="text-muted">Titulo do blog</h2>
+        <div class="col-xl-3 col-lg-4 col-md-4 text-center">
+          <div class="card card-blog">
+            <img src="./public/assets/logo.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Titulo do topico</h5>
+              <p class="card-text">
+                Aqui vai uma breve descrição da materia do blog
+              </p>
+              <a href="#" class="btn btn-secondary">Leia mais &raquo;</a>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 text-center">
-            <div class="card card-blog">
-              <img
-                src="./public/assets/logo.jpeg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Titulo do topico</h5>
-                <p class="card-text">
-                  Aqui vai uma breve descrição da materia do blog
-                </p>
-                <a
-                  href="#"
-                  class="btn btn-secondary"
-                  >Leia mais &raquo;</a
-                >
-              </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 text-center">
+          <div class="card card-blog">
+            <img src="./public/assets/logo.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Titulo do topico</h5>
+              <p class="card-text">
+                Aqui vai uma breve descrição da materia do blog
+              </p>
+              <a href="#" class="btn btn-secondary">Leia mais &raquo;</a>
             </div>
           </div>
-          <div class="col-xl-3 col-lg-4 col-md-4 text-center">
-            <div class="card card-blog">
-              <img
-                src="./public/assets/logo.jpeg"
-                class="card-img-top"
-                alt="..."
-              />
-              <div class="card-body">
-                <h5 class="card-title">Titulo do topico</h5>
-                <p class="card-text">
-                  Aqui vai uma breve descrição da materia do blog
-                </p>
-                <a
-                  href="#"
-                  class="btn btn-secondary"
-                  >Leia mais &raquo;</a
-                >
-              </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 text-center">
+          <div class="card card-blog">
+            <img src="./public/assets/logo.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Titulo do topico</h5>
+              <p class="card-text">
+                Aqui vai uma breve descrição da materia do blog
+              </p>
+              <a href="#" class="btn btn-secondary">Leia mais &raquo;</a>
             </div>
           </div>
         </div>
       </div>
-    </main>
-    <footer class="container border-top mt-2">
-      <div
-        class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4"
-      >
-        <ul class="nav col-md-4 d-flex justify-content-center">
-          <li class="ms-3">
-            <a
-              class="text-muted"
-              href="https://wa.me/+5551999424710"
-              ><img
-                src="./public/assets/icon-whatsapp.png"
-                alt=""
-            /></a>
-          </li>
-          <li class="ms-3">
-            <a
-              class="text-muted"
-              href="#"
-              ><img
-                src="./public/assets/icon-instagram.png"
-                alt=""
-            /></a>
-          </li>
-          <li class="ms-3">
-            <a
-              class="text-muted"
-              href="#"
-              ><img
-                src="./public/assets/icon-youtube.png"
-                alt=""
-            /></a>
-          </li>
-        </ul>
-      </div>
-      <div class="d-flex justify-content-between">
-        <span class="text-muted"> &middot; &copy; 2023 Sheila🤍 &middot;</span>
-        <p>
-          <a
-            class="list-unstyled"
-            href="#"
-            >&middot; Voltar ao Topo &middot;</a
-          >
-        </p>
-      </div>
-    </footer>
+    </div>
+  </main>
+  <footer class="container border-top mt-2">
+    <div class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4">
+      <ul class="nav col-md-4 d-flex justify-content-center">
+        <li class="ms-3">
+          <a class="text-muted" href="https://wa.me/+5551999424710"><img src="./public/assets/icon-whatsapp.png"
+              alt="" /></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"><img src="./public/assets/icon-instagram.png" alt="" /></a>
+        </li>
+        <li class="ms-3">
+          <a class="text-muted" href="#"><img src="./public/assets/icon-youtube.png" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+    <div class="d-flex justify-content-between">
+      <span class="text-muted"> &middot; &copy; 2023 Sheila🤍 &middot;</span>
+      <p>
+        <a class="list-unstyled" href="#">&middot; Voltar ao Topo &middot;</a>
+      </p>
+    </div>
+  </footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <script src="./public/js/index.js"></script>
-  </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <script src="./public/js/index.js"></script>
+</body>
+
 </html>

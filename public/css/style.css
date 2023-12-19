@@ -11,12 +11,9 @@
 
 body {
   padding-bottom: 3rem;
- 
+  color: var(--body-bg-color);
  
   }
-  /* main{
-background-color: var(--body-bg-color-fundo);
-  } */
 
 .carousel {
   margin-bottom: 4rem;
@@ -26,11 +23,6 @@ background-color: var(--body-bg-color-fundo);
   bottom: 3rem;
   z-index: 10;
 
-}
-
-
-.carousel-item {
-  height: 32rem;
 }
 
 .marketing .col-lg-4 {
