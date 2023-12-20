@@ -1,22 +1,28 @@
 :root {
   --body-bg-color-texto: #4D0F10;
   --body-bg-color-titulo: #BA8712;
-  --body-bg-color-fundo:#FBFAFF;
+  --body-bg-color-fundo: #FBFAFF;
+  --body-bg-color-transparente: #ffde5918;
   --body-bg-color: #FFDE59;
   --body-bg-color: #C69016;
   --body-bg-color: #7F5C0B;
-  --body-bg-color: #040301;
+  --body-bg-color: #020202;
 
 }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
 
-body {
-  padding-bottom: 3rem;
-  color: var(--body-bg-color);
- 
-  }
-
-.carousel {
-  margin-bottom: 4rem;
+.navul {
+  width: 100%;
+  justify-content: end;
+}
+.featurette-divider {
+  width: 50%;
+  margin: 4rem 0;
 }
 
 .carousel-caption {
@@ -24,25 +30,19 @@ body {
   z-index: 10;
 
 }
-
-.marketing .col-lg-4 {
-  margin-bottom: 1.5rem;
-  text-align: center;
-}
-
-.marketing .col-lg-4 p {
-  margin-right: .75rem;
-  margin-left: .75rem;
-}
-
-.featurette-divider {
-  margin: 5rem 0;
-}
-
 .featurette-heading {
   letter-spacing: -.05rem;
+    text-shadow: 1px 1px 1px black, 0 0 25px #7F5C0B, 0 0 5px #FFDE59;
 }
 
+.sheila:hover{
+  color: white !important;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+.topo:hover{
+  text-decoration: underline !important;
+  color: #7F5C0B !important;
+}
 @media (min-width: 40em) {
   .carousel-caption p {
     margin-bottom: 1.25rem;
@@ -110,4 +110,45 @@ body {
   text-align: center;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
+}
+/* depoimentos */
+.foto {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.foto:hover .image {
+  opacity: 0.1;
+}
+
+.foto:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #ffde5954;
+  border-radius: 10px;
+  color: #4D0F10;
+  font-size: 16px;
+  padding: 16px 32px;
+  width: 90%;
 }

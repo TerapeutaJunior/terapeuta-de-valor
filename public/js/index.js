@@ -10,7 +10,7 @@ const conteudo = {
 
         },
         {
-            titulo: 'Especialidades',
+            titulo: 'Conhecimentos',
             href: '#especialidades',
         },
         {
@@ -27,10 +27,6 @@ const conteudo = {
 
             titulo: 'Blog',
             href: '#blog'
-        },
-        {
-            titulo: 'Marque sua Consulta',
-            href: '#marque-sua-consulta'
         }
     ],
     icone: {
@@ -82,7 +78,7 @@ function trocarLogo() {
     const imageLogo = document.createElement('img');
     imageLogo.src = conteudo.icone.urlImage;
     imageLogo.alt = conteudo.icone.textoAlt;
-    imageLogo.style = 'max-width: 50px; border-radius:50%'
+    imageLogo.style = 'max-width: 70px; border-radius:50%'
 
     logoLink.href = conteudo.icone.linkLogo;
     logoLink.appendChild(imageLogo);
@@ -99,11 +95,11 @@ function trocarTema(ev) {
     }
 }
 
-function montarTextosPrincipais() {
-    document.getElementById('titulo-principal').innerText = conteudo.topicos.sobre.tituloPrincipal
-    document.getElementById('subtitulo-principal').innerText = conteudo.topicos.sobre.subtituloPrincipal
-    document.getElementById('descricao-principal').innerText = conteudo.topicos.sobre.descricaoPrincipal
-}
+// function montarTextosPrincipais() {
+//     document.getElementById('titulo-principal').innerText = conteudo.topicos.sobre.tituloPrincipal
+//     document.getElementById('subtitulo-principal').innerText = conteudo.topicos.sobre.subtituloPrincipal
+//     document.getElementById('descricao-principal').innerText = conteudo.topicos.sobre.descricaoPrincipal
+// }
 
 function aplicaFontePadrao() {
     document.querySelector('body').style = `font-family: ${conteudo.fonts.body}`
@@ -121,7 +117,7 @@ document.getElementById('toogle-theme').addEventListener('change', trocarTema)
 document.addEventListener('DOMContentLoaded', () => {
     montarLinks();
     trocarLogo();
-    montarTextosPrincipais();
+    // montarTextosPrincipais();
     aplicaFontePadrao();
     aplicarTemaSalvoStorage();
 })
