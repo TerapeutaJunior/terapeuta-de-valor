@@ -32,7 +32,8 @@
 }
 .featurette-heading {
   letter-spacing: -.05rem;
-    text-shadow: 1px 1px 1px black, 0 0 25px #7F5C0B, 0 0 5px #FFDE59;
+  text-shadow: 1px 1px 1px black, 0 0 25px #7F5C0B, 0 0 5px #FFDE59;
+  color: #C69016;
 }
 
 .sheila:hover{

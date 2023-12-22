@@ -11,7 +11,7 @@ const conteudo = {
         },
         {
             titulo: 'Conhecimentos',
-            href: '#especialidades',
+            href: '#conhecimentos',
         },
         {
 
@@ -31,7 +31,7 @@ const conteudo = {
     ],
     icone: {
         textoAlt: 'Logo terapeuta de valor',
-        urlImage: './public/assets/logo.jpeg',
+        urlImage: './public/assets/logo2.png',
         linkLogo: '#'
     },
     tema: {
@@ -78,22 +78,22 @@ function trocarLogo() {
     const imageLogo = document.createElement('img');
     imageLogo.src = conteudo.icone.urlImage;
     imageLogo.alt = conteudo.icone.textoAlt;
-    imageLogo.style = 'max-width: 70px; border-radius:50%'
+    imageLogo.style = 'max-width: 70px; border-radius:5px'
 
     logoLink.href = conteudo.icone.linkLogo;
     logoLink.appendChild(imageLogo);
 }
 
-function trocarTema(ev) {
-    if (ev.target.checked) {
-        document.querySelector('body').setAttribute('data-bs-theme', 'dark')
+// function trocarTema(ev) {
+//     if (ev.target.checked) {
+//         document.querySelector('body').setAttribute('data-bs-theme', 'dark')
 
-        localStorage.setItem('tema', 'dark')
-    } else {
-        document.querySelector('body').setAttribute('data-bs-theme', 'light')
-        localStorage.setItem('tema', 'light')
-    }
-}
+//         localStorage.setItem('tema', 'dark')
+//     } else {
+//         document.querySelector('body').setAttribute('data-bs-theme', 'light')
+//         localStorage.setItem('tema', 'light')
+//     }
+// }
 
 // function montarTextosPrincipais() {
 //     document.getElementById('titulo-principal').innerText = conteudo.topicos.sobre.tituloPrincipal
@@ -112,7 +112,7 @@ function aplicarTemaSalvoStorage() {
     document.querySelector('body').setAttribute('data-bs-theme', tema);
 }
 
-document.getElementById('toogle-theme').addEventListener('change', trocarTema)
+// document.getElementById('toogle-theme').addEventListener('change', trocarTema)
 
 document.addEventListener('DOMContentLoaded', () => {
     montarLinks();
