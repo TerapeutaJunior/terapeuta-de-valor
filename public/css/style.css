@@ -65,7 +65,7 @@ footer div div small {
 }
 
 .topo:hover {
-  background-color: #7F5C0B;
+  background-color: #4d4a4aa8;
   color: #FBFAFF !important;
 }
 
@@ -76,7 +76,7 @@ footer {
   margin-top: 10px;
 }
 
-footer div ul li i {
+footer div ul li {
   border-radius: 5px;
   width: 60px;
   height: 60px;
@@ -87,7 +87,7 @@ footer div ul li a i {
   font-size: 26px;
 }
 
-footer div ul li i:hover {
+footer div ul li:hover {
   background-color: #0101011f;
 }
 
