@@ -31,7 +31,7 @@ const conteudo = {
     ],
     icone: {
         textoAlt: 'Logo terapeuta de valor',
-        urlImage: './public/assets/logo2.png',
+        urlImage: './public/assets/logo-header.png',
         linkLogo: '#'
     },
     tema: {
@@ -78,29 +78,11 @@ function trocarLogo() {
     const imageLogo = document.createElement('img');
     imageLogo.src = conteudo.icone.urlImage;
     imageLogo.alt = conteudo.icone.textoAlt;
-    imageLogo.style = 'max-width: 70px; border-radius:5px'
+    imageLogo.style = 'max-width: 50px; margin-left:20px; paddind:10px;'
 
     logoLink.href = conteudo.icone.linkLogo;
     logoLink.appendChild(imageLogo);
 }
-
-// function trocarTema(ev) {
-//     if (ev.target.checked) {
-//         document.querySelector('body').setAttribute('data-bs-theme', 'dark')
-
-//         localStorage.setItem('tema', 'dark')
-//     } else {
-//         document.querySelector('body').setAttribute('data-bs-theme', 'light')
-//         localStorage.setItem('tema', 'light')
-//     }
-// }
-
-// function montarTextosPrincipais() {
-//     document.getElementById('titulo-principal').innerText = conteudo.topicos.sobre.tituloPrincipal
-//     document.getElementById('subtitulo-principal').innerText = conteudo.topicos.sobre.subtituloPrincipal
-//     document.getElementById('descricao-principal').innerText = conteudo.topicos.sobre.descricaoPrincipal
-// }
-
 function aplicaFontePadrao() {
     document.querySelector('body').style = `font-family: ${conteudo.fonts.body}`
 }
@@ -111,9 +93,6 @@ function aplicarTemaSalvoStorage() {
     document.getElementById('toogle-theme').checked = (tema == 'dark');
     document.querySelector('body').setAttribute('data-bs-theme', tema);
 }
-
-// document.getElementById('toogle-theme').addEventListener('change', trocarTema)
-
 document.addEventListener('DOMContentLoaded', () => {
     montarLinks();
     trocarLogo();

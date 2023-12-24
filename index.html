@@ -29,7 +29,7 @@
   <header>
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid ">
-        <a class="navbar-brand" id="logo-link" target="_blank"></a>
+        <a class="navbar-brand " id="logo-link" target="_blank"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
           aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -37,13 +37,10 @@
         <div class="collapse navbar-collapse " id="navbarNavDropdown">
           <ul class="navbar-nav navul" id="links-menu"></ul>
         </div>
-        <!-- <div class="form-check form-switch">
-          <input class="form-check-input" type="checkbox" role="switch" id="toogle-theme" />
-        </div> -->
-        <div>
+        <div class="p-1">
           <a href="https://wa.me/+5521997519354" target="_blank" class="btn btn-success d-none d-lg-block"
             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-            Marque sua consulta <i class="bi bi-whatsapp"></i>
+            Marque sua consulta <i class="bi bi-whatsapp p-1"></i>
           </a>
         </div>
       </div>
@@ -146,7 +143,7 @@
       <div class="row featurette d-flex justify-content-center align-items-center text-center" id="beneficios">
         <div class="col-md-7">
           <h2 class="featurette-heading fw-normal lh-1 ">
-            Beneficios da terapia na sua vida
+            Benefícios da terapia na sua vida
           </h2>
           <h5 class="text-muted ">resumo dos beneficios</h5>
           <p class="lead">
@@ -174,7 +171,7 @@
     <!-- depoimentos -->
     <div class="container-fluid gap-3" id="depoimentos">
       <!-- exemplos 1 -->
-      <h2 class="text-center text-warning-emphasis align-items-center gap-3 mb-3">Depoimentos sobre o meu trabalho</h2>
+      <h2 class="text-center text-warning-emphasis align-items-center gap-3 mb-3">O que dizem sobre o meu trabalho</h2>
       <div class=" row justify-content-around gap-3 d-flex">
         <div class="col-sm-6 col-md-6 col-lg-3 ">
           <div class="card foto align-items-center  border border-0 shadow-sm rounded-5 p-2">
@@ -332,34 +329,36 @@
     </div>
 
   </main>
-  <a target="_blank" href="https://wa.me/+5521997519354" class="btn button-float btn-success"><i
+  <a target="_blank" href="https://wa.me/+5521997519354" class="btn button-float w-float"><i
       class="bi bi-whatsapp"></i></a>
 
-  <footer class="container border-top mt-2">
-    <div class="d-flex flex-wrap justify-content-center align-items-center py-3 my-4">
-      <ul class="nav col-md-4 d-flex justify-content-center">
-        <li class="ms-3">
-          <a class="text-muted " href="https://wa.me/+5521997519354"><i class="bi bi-whatsapp"></i></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted " target="_blank" href="https://www.instagram.com/juniorterapeutamasoterapeuta?igsh=MTEzeXgxNW8wMnEy"><i class="bi bi-instagram"></i></a>
-        </li>
-        <li class="ms-3">
-          <a class="text-muted" target="_blank" href="https://www.youtube.com/@Juniorespecialistaemocional"><i class="bi bi-youtube"></i></a>
-        </li>
-         <li class="ms-3">
-          <a class="text-muted " href="#"><i class="bi bi-facebook"></i></a>
-        </li>
-      </ul>
-    </div>
-    <div class="d-flex justify-content-between">
-      <span class="text-muted"> &copy; 2023 &middot; by
-        <a class="text-muted text-decoration-none sheila" target="_blank" title="Clique aqui e faça seu orçamento."
-          href="https://sheilaacunha.github.io/CurriculoComBootstrap/"> @Sheilaacunha </a>&middot;
-      </span>
-      <p>
+  <footer class="container-fluid">
+    <div class="row align-items-center">
+      <div class="col-sm-6 col-lg-3 d-none d-lg-block">
+        <small class="text-muted"> &copy; 2023 &middot; by
+          <a class="text-muted text-decoration-none sheila" target="_blank" title="Clique aqui e faça seu orçamento."
+            href="https://sheilaacunha.github.io/CurriculoComBootstrap/"> @Sheilaacunha </a>&middot;
+        </small>
+      </div>
+      <div class="col-sm-6 col-lg-6 text-center">
         <a class="topo text-muted text-decoration-none" href="#">&middot; Voltar ao Topo &middot;</a>
-      </p>
+      </div>
+      <div class="col-sm-6 col-lg-3 d-flex  align-items-center">
+        <ul class="d-flex  gap-3 justify-content-start justify-content-md-center">  
+          <li class=" align-items-center d-flex justify-content-center">
+            <a class="text-muted" target="_blank"
+              href="https://www.instagram.com/juniorterapeutamasoterapeuta?igsh=MTEzeXgxNW8wMnEy"><i
+                class="bi bi-instagram "></i></a>
+          </li>
+          <li class=" align-items-center d-flex justify-content-center">
+            <a class="text-muted" target="_blank" href="https://www.youtube.com/@Juniorespecialistaemocional"><i
+                class="bi bi-youtube"></i></a>
+          </li>
+          <li class="align-items-center d-flex justify-content-center">
+            <a class="text-muted" href="#"><i class="bi bi-facebook"></i></a>
+          </li>
+        </ul>
+      </div>
     </div>
   </footer>
 
