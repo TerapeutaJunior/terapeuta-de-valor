@@ -70,13 +70,14 @@ footer div div small {
 }
 
 footer {
-  background-color: #ffde5946;
+ 
   border-top: 1px solid rgba(0, 0, 0, 0.164);
   box-shadow: 5px 10px 8px 10px #888888;
   margin-top: 10px;
 }
 
 footer div ul li {
+  margin-top: 10px;
   border-radius: 5px;
   width: 60px;
   height: 60px;
@@ -89,10 +90,6 @@ footer div ul li a i {
 
 footer div ul li:hover {
   background-color: #0101011f;
-}
-
-.bi-whatsapp-link:hover {
-  color: #198754;
 }
 
 .bi-instagram:hover {
@@ -178,7 +175,6 @@ footer div ul li:hover {
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
-
 /* depoimentos */
 .foto {
   position: relative;
