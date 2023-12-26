@@ -22,6 +22,7 @@
   <!-- css -->
   <link rel="stylesheet" href="./public/css/style.css" />
   <link rel="stylesheet" href="./public/css/blog.css">
+
   <title>Terapeuta de Valor</title>
 </head>
 
@@ -38,7 +39,7 @@
           <ul class="navbar-nav navul" id="links-menu"></ul>
         </div>
         <div class="p-1">
-          <a href="https://wa.me/+5521997519354" target="_blank" class="btn btn-success d-none d-lg-block"
+          <a href="https://wa.me/+5521997519354" target="_blank" class="btn btn-success d-none d-lg-block btnheader"
             style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
             Marque sua consulta <i class="bi bi-whatsapp p-1"></i>
           </a>
@@ -48,7 +49,7 @@
   </header>
 
   <main>
-    <!-- carrosel-banner -->
+    <!-- carousel-banner -->
     <div class="container-fluid banner">
       <div id="myCarousel" class="carousel carousel-dark slide ">
         <div class="carousel-indicators">
@@ -59,17 +60,18 @@
         </div>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="bd-placeholder-img" width="100%" src="./public/assets/faixa-banner.png"
+            <img class="bd-placeholder-img" width="100%" src="./public/assets/carroussel/carroussel-1.png"
               alt="foto de Junior Freitas" />
           </div>
           <div class="carousel-item">
-            <img class="bd-placeholder-img" width="100%" src="./public/assets/faixa-banner-2.png"
+            <img class="bd-placeholder-img" width="100%" src="./public/assets/carroussel/carroussel-2.png"
               alt="foto com a logo do terapeuta" />
           </div>
           <div class="carousel-item">
-            <a class="btn" href="https://wa.me/+5551999424710" target="_blank">
-              <img class="bd-placeholder-img" width="100%" src="./public/assets/faixa-banner-3.png"
-                alt="Conheça mais meu trabalhao" /></a>
+            <a href="https://wa.me/+5551999424710" target="_blank">
+              <img class="bd-placeholder-img" width="100%" src="./public/assets/carroussel/carroussel-3.png"
+                alt="Conheça mais meu trabalhao" />
+            </a>
             <div class="carousel-caption align-items-center d-flex justify-content-end align-items-center"></div>
           </div>
         </div>
@@ -83,20 +85,15 @@
         </button>
       </div>
     </div>
-    <hr class="featurette-divider mx-auto" />
-    <!-- sessoes -->
+      <!-- sessoes -->
     <div class="container-fluid marketing " id="sobre">
-      <!-- resumo sobre a terapia de valor e sobre -->
+      <!-- resumo sobre a terapia de valor-->
       <div class="row featurette d-flex justify-content-center align-items-center text-center ">
         <div class="col-md-7">
           <h1 class="featurette-heading fw-normal lh-1 ">
             Terapeuta de Valor</i>
           </h1>
-          <h5 class="text-muted">
-            Terapia é um processo de tratamento que visa melhorar a saúde mental, emocional e comportamental de uma
-            pessoa, ajudando a lidar com seus desafios, desenvolver habilidades de enfrentamento e a melhorar sua
-            qualidade de vida.
-          </h5>
+
           <p class="lead">
             A Medicina Germânica propõe uma abordagem holística que considera a mente o corpo e as emoções como
             interligados e influenciando a saúde. É destinada a pessoas que desejam aplicar na prática, esta nova
@@ -106,38 +103,68 @@
           </p>
         </div>
         <div class="col-md-5">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="./public/assets/terno3-sem-fundo.png" alt="foto de Junior Freitas" />
+          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="400"
+            height="400" src="./public/assets/sessao/sessao-1.png" alt="foto de Junior Freitas" />
         </div>
       </div>
-      <hr class="featurette-divider" />
+      <hr class="featurette-divider mx-auto" />
       <!-- resumo conhecimentos -->
-      <div class="row featurette d-flex justify-content-center align-items-center text-center" id="conhecimentos">
-        <div class="col-md-7 order-md-2">
-          <h2 class="featurette-heading fw-normal lh-1 ">
-            Conhecimentos
-          </h2>
-          <h5 class="text-muted">
-            Terapia Emocional e comportamental, Leitura Fisiognômica <small>(traços da sua fisionomia)</small> e
-            Massoterateuta,
-
-          </h5>
-          <p class="lead">A leitura <b>Fisiognômica</b> é uma prática que envolve a interpretação das características
-            faciais de uma pessoa para entender sua personalidade, temperamento e caráter. É uma especialidade da
-            análise facial e da psicologia.
-
-          </p>
-          <p class="lead">
-            A Massoterapia é um termo que engloba diversas técnicas terapêuticas, cujo objetivo é melhorar a saúde e
-            prevenir alguns desequilíbrios corporais. Por meio do ato de tocar regiões do corpo de uma pessoa,
-            realizando movimentos fortes ou sutis, é possível trabalhar os aspectos físicos e mentais de cada um.
-          </p>
+     <div class="conhecimentos">
+       <div class="row d-flex  justify-content-center align-items-center text-center p-2 conhecimentos2" id="conhecimentos">
+        <h2 class="featurette-heading  fw-normal lh-1 ">
+          Conhecimentos:
+        </h2>
+        <div class="col-md-4 col-lg-12 d-flex align-items-center justify-content-around p-2">
+          <div class="card-blog-container">
+            <div class="card-blog">
+              <div class="front-content d-flex align-items-center justify-content-center">
+                <p>Emocional e comportamental</p>
+              </div>
+              <div class="content p-2 d-flex align-items-center">
+                <p>
+                  A terapia é um processo de tratamento que visa melhorar a saúde mental, emocional e comportamental de
+                  uma pessoa, ajudando a lidar com seus desafios, desenvolver habilidades de enfrentamento e a melhorar
+                  sua qualidade de vida.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog-container">
+            <div class="card-blog">
+              <div class="front-content d-flex align-items-center justify-content-center">
+                <p>Massoterapia</p>
+              </div>
+              <div class="content p-2 d-flex align-items-center">
+                <p>
+                  A Massoterapia é um termo que engloba diversas técnicas terapêuticas, cujo objetivo
+                  é melhorar a saúde e
+                  prevenir alguns desequilíbrios corporais. Por meio do ato de tocar regiões do corpo
+                  de uma pessoa,
+                  realizando movimentos fortes ou sutis, é possível trabalhar os aspectos físicos e
+                  mentais de cada um.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="card-blog-container">
+            <div class="card-blog">
+              <div class="front-content d-flex align-items-center justify-content-center">
+                <p>Leitura Fisiogonomica</p>
+              </div>
+              <div class="content p-2 d-flex align-items-center text-center">
+                <p>A leitura <b>Fisiognômica</b> ou Traços da sua fisionomia é uma prática que envolve a
+                  interpretação das características faciais de uma pessoa para entender sua
+                  personalidade, temperamento e caráter. É uma especialidade da análise facial e da
+                  psicologia.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="col-md-5 order-md-1">
-          <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="./public/assets/imgtestes/sessao.jpg" alt="uma pessoa fazendo massagem" />
-        </div>
+
+
       </div>
+     </div>
       <hr class="featurette-divider mx-auto" />
       <!-- resumo beneficios -->
       <div class="row featurette d-flex justify-content-center align-items-center text-center" id="beneficios">
@@ -163,37 +190,38 @@
         </div>
         <div class="col-md-5">
           <img class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500"
-            height="500" src="./public/assets/imgtestes/sessao2.jpg" alt="foto mulher meditando" />
+            height="500" src="./public/assets/sessao/sessao-3.jpg" alt="foto mulher meditando" />
         </div>
       </div>
     </div>
-    <hr class="featurette-divider" />
+    <hr class="featurette-divider mx-auto" />
     <!-- depoimentos -->
     <div class="container-fluid gap-3" id="depoimentos">
-      <h2 class="text-center text-warning-emphasis align-items-center gap-3 mb-3">O que dizem sobre o meu trabalho</h2>
-      <div class=" row justify-content-around gap-3 d-flex">
+      <h2 class="text-center text-warning-emphasis align-items-center gap-3 mb-3">O que dizem sobre o meu trabalho:</h2>
+      <div class=" row justify-content-around d-flex">
         <div class="col-sm-6 col-md-6 col-lg-3 ">
-          <div class="card foto align-items-center  border border-0 shadow-sm rounded-5 p-2">
-            <img src="./public/assets/imgtestes/img11.jpeg"
-              class="card-img-top image rounded-circle border border-5  w-50 shadow-lg" alt="menina dançando" />
+          <div class="card foto align-items-center border-0  rounded-3 p-2">
+            <img src="./public/assets/sessao/testes.jpeg"
+              class="card-img-top image rounded-circle border border-warning-subtle border-5  w-50 shadow-lg"
+              alt="foto de quem fez o depoimento" />
             <div class=" card-body ">
               <small class=" card-title image text-center">Veja o depoimento completo, clicando aqui. </small>
-              <p class="text middle "><q>Aqui vai uma breve descrição,
+              <p class="text middle text-warning-emphasis"><q>Aqui vai uma breve descrição,
                   pode ser ate do google se tiver qui vai uma breve descrição,
                   pode ser ate do google se tiver </q>
               </p>
-
             </div>
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3 ">
-          <div class="card foto align-items-center border-0 shadow-sm rounded-5 p-2">
-            <img src="./public/assets/img/depoimentos1.png"
-              class="card-img-top image rounded-circle border border-warning-subtle border-5 w-50 shadow-lg" alt="menina dançando" />
+          <div class="card foto align-items-center border-0 rounded-3 p-2">
+            <img src="./public/assets/depoimentos/img-depo-1.png"
+              class="card-img-top image rounded-circle border border-warning-subtle border-5 w-50 shadow-lg"
+              alt="foto de quem fez o depoimento" />
             <div class=" card-body ">
               <small class=" card-title image text-center">Veja o depoimento completo, clicando aqui. </small>
-              <video class="text middle" controls style="width:100%; height: 100%;">
-                <source src="./public/assets//videos/depoimentos1.mp4" type="video/mp4">
+              <video class=" middle" controls style="width:100%; height: 100%;">
+                <source src="./public/assets/depoimentos/video-depo-1.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Seu navegador não tem suporte para esse video.
               </video>
@@ -201,10 +229,10 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3 ">
-          <div class="card foto align-items-center  border border-warning border-0 shadow-sm rounded-5 p-2">
-            <img src="./public/assets/imgtestes/img11.jpeg"
-              class="card-img-top image rounded-circle border border-5 border-warning w-50 shadow-lg"
-              alt="menina dançando" />
+          <div class="card foto align-items-center border-0 rounded-3 p-2">
+            <img src="./public/assets/sessao/testes.jpeg"
+              class="card-img-top image rounded-circle border border-4 border-warning-subtle w-50 shadow-lg"
+              alt="foto de quem fez o depoimento" />
             <div class=" card-body ">
               <small class=" card-title image text-center">Veja o depoimento completo, clicando aqui. </small>
               <p class="text middle"><q>Aqui vai uma breve descrição,
@@ -216,14 +244,14 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3 ">
-          <div class="card foto align-items-center  border border-0 shadow-sm rounded-5 p-2">
-            <img src="./public/assets/img/depoimentos2.png"
-              class="card-img-top image rounded-circle border border-5 w-50 shadow-lg"
-              alt="menina dançando" />
+          <div class="card foto align-items-center border border-0 rounded-3 p-2">
+            <img src="./public/assets/depoimentos/img-depo-2.png"
+              class="card-img-top image rounded-circle border border-warning-subtle border-4 w-50 shadow-lg"
+              alt="foto de quem fez o depoimento" />
             <div class=" card-body ">
               <small class=" card-title image text-center">Veja o depoimento completo, clicando aqui. </small> <video
-                class="text middle" controls style="width:100%; height: 100%;">
-                <source src="./public/assets/videos/depoimentos2.mp4" type="video/mp4">
+                class="middle" controls style="width:100%; height: 100%;">
+                <source src="./public/assets/depoimentos/video-depo-2.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Seu navegador não tem suporte para esse video.
               </video>
@@ -231,10 +259,10 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3 ">
-          <div class="card foto align-items-center  border border-0 shadow-sm rounded-5 p-2">
-            <img src="./public/assets/imgtestes/img11.jpeg"
-              class="card-img-top image rounded-circle border border-5 border-warning-subtle w-50 shadow-lg"
-              alt="menina dançando" />
+          <div class="card foto align-items-center  border border-0 rounded-3 p-2">
+            <img src="./public/assets/sessao/testes.jpeg"
+              class="card-img-top image rounded-circle border border-4 border-warning-subtle w-50 shadow-lg"
+              alt="foto de quem fez o depoimento" />
             <div class=" card-body ">
               <small class=" card-title image text-center">Veja o depoimento completo, clicando aqui. </small>
               <p class="text middle">
@@ -246,14 +274,14 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-6 col-lg-3 ">
-          <div class="card foto align-items-center  border border-0 shadow-sm rounded-5 p-2">
-            <img src="./public/assets/img/depoimentos3.png"
-              class="card-img-top image rounded-circle border border-warning border-5 w-50 shadow-lg"
-              alt="menina dançando" />
+          <div class="card foto align-items-center  border border-0 rounded-3 p-2">
+            <img src="./public/assets/depoimentos/img-depo-3.png"
+              class="card-img-top image rounded-circle border border-4 w-50 shadow-lg"
+              alt="foto de quem fez o depoimento" />
             <div class=" card-body ">
               <small class=" card-title image text-center">Veja o depoimento completo, clicando aqui. </small>
-              <video class="text middle" controls style="width:100%; height: 100%;">
-                <source src="./public/assets/videos/depoimentos3.mp4" type="video/mp4">
+              <video class="middle" controls style="width:100%; height: 100%;">
+                <source src="./public/assets/depoimentos/video-depo-3.mp4" type="video/mp4">
                 <source src="movie.ogg" type="video/ogg">
                 Seu navegador não tem suporte para esse video.
               </video>
@@ -270,7 +298,8 @@
         <div class="row">
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="card card-blog">
-              <img src="./public/assets/logo.jpeg" class="card-img-top" alt="menina dançando" />
+              <img src="./public/assets/sessao/logo.jpeg" class="card-img-top"
+                alt="imagem relacionada a materia do blog" />
               <div class="card-body">
                 <h5 class="card-title text-warning">Titulo do topico</h5>
                 <p class="card-text">
@@ -282,7 +311,8 @@
           </div>
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="card card-blog">
-              <img src="./public/assets/logo.jpeg" class="card-img-top" alt="menina dançando" />
+              <img src="./public/assets/sessao/logo.jpeg" class="card-img-top"
+                alt="imagem relacionada a materia do blog" />
               <div class="card-body">
                 <h5 class="card-title text-warning-emphasis">Titulo do topico</h5>
                 <p class="card-text">
@@ -294,7 +324,8 @@
           </div>
           <div class="col-sm-6 col-md-6 col-lg-3 ">
             <div class="card card-blog">
-              <img src="./public/assets/logo.jpeg" class="card-img-top" alt="menina dançando" />
+              <img src="./public/assets/sessao/logo.jpeg" class="card-img-top"
+                alt="imagem relacionada a materia do blog" />
               <div class="card-body">
                 <h5 class="card-title">Titulo do topico</h5>
                 <p class="card-text">
@@ -306,7 +337,8 @@
           </div>
           <div class="col-sm-6 col-md-6 col-lg-3">
             <div class="card card-blog">
-              <img src="./public/assets/logo.jpeg" class="card-img-top" alt="menina dançando" />
+              <img src="./public/assets/sessao/logo.jpeg" class="card-img-top"
+                alt="imagem relacionada a materia do blog" />
               <div class="card-body">
                 <h5 class="card-title">Titulo do topico</h5>
                 <p class="card-text">
@@ -334,21 +366,21 @@
         </small>
       </div>
       <div class="col-sm-6 col-lg-6 text-center">
-        <a class="topo text-muted text-decoration-none" href="#">&middot; Voltar ao Topo &middot;</a>
+        <a class="topo text-warning-emphasis text-decoration-none" href="#">&middot; Voltar ao Topo &middot;</a>
       </div>
       <div class="col-sm-6 col-lg-3 d-flex  align-items-center">
         <ul class="d-flex justify-content-start justify-content-md-center">
           <li class=" align-items-center d-flex justify-content-center">
-            <a class="text-muted" target="_blank"
+            <a class="text-warning-emphasis" target="_blank"
               href="https://www.instagram.com/juniorterapeutamasoterapeuta?igsh=MTEzeXgxNW8wMnEy"><i
                 class="bi bi-instagram "></i></a>
           </li>
           <li class=" align-items-center d-flex justify-content-center">
-            <a class="text-muted" target="_blank" href="https://www.youtube.com/@Juniorespecialistaemocional"><i
-                class="bi bi-youtube"></i></a>
+            <a class="text-warning-emphasis" target="_blank"
+              href="https://www.youtube.com/@Juniorespecialistaemocional"><i class="bi bi-youtube"></i></a>
           </li>
           <li class="align-items-center d-flex justify-content-center">
-            <a class="text-muted" href="#"><i class="bi bi-facebook"></i></a>
+            <a class="text-warning-emphasis" href="#"><i class="bi bi-facebook"></i></a>
           </li>
         </ul>
       </div>
