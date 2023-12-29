@@ -309,3 +309,9 @@ background-color: #e8e8e862;
   .card-blog:hover .front-content p {
     opacity: 0;
   }
+  .blog-principal{
+    background-image: url(../assets/blog-img/topico0.jpg);
+    background-position:  center;
+    background-size: cover;
+  }
+ 
