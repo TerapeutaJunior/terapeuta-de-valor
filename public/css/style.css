@@ -97,12 +97,18 @@ footer div ul li a i {
 footer div ul li:hover {
   background-color: #fff3cd;
 }
+/* icons */
 
 .bi-instagram:hover {
   color: #bf3bc4;
 
 }
-
+.bi-whatsapp:hover{
+color: #25d366;
+}
+.bi-house-fill:hover{
+color:#C69016 ;
+}
 .bi-youtube:hover {
   color: red;
 }
@@ -221,15 +227,20 @@ footer div ul li:hover {
   font-size: 35px;
   color: #fff;
   background-color: #25d366;
+  border: none;
 }
 
 .button-float:hover {
-  background-color: #25d366;
+  background-color: #25d366 !important;
 }
 
 .btn-w-float:hover {
   color: #FFDE59;
   box-shadow: 2px 2px 4px #FFDE59;
+}
+.btn-w-float .bi-wts:hover{
+  color: #FFDE59;
+
 }
 
 /* sessao conhecimentos */
@@ -244,74 +255,82 @@ footer div ul li:hover {
   background-size: cover;
   background-position: center;
 }
-  .emocional {
-    background-image: url(../assets/conhecimentos/emocional.jpg);
-      
-  }
 
-  .massoterapia {
-    background-image: url(../assets/conhecimentos/massoterapia.jpg);
-  }
+.emocional {
+  background-image: url(../assets/conhecimentos/emocional.jpg);
 
-  .leitura {
-    background-image: url(../assets/conhecimentos/leitura-facial.jpg);
-  }
+}
 
-  .card-blog {
-    width: 100%;
-    height: 100%;
-    border-radius: inherit;
-   
-background-color: #e8e8e862;
-  }
+.massoterapia {
+  background-image: url(../assets/conhecimentos/massoterapia.jpg);
+}
 
-  .card-blog .front-content {
-    width: 100%;
-    height: 100%;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-  }
+.leitura {
+  background-image: url(../assets/conhecimentos/leitura-facial.jpg);
+}
 
-  .card-blog .front-content p {
-    font-size: 35px;
-    font-weight: 700;
-    opacity: 1;
-    background: #ffde59;
-    background-clip: text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
-  }
+.card-blog {
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
 
-  .card-blog .content {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(-45deg, #FFDE59 0%, #664d03 50%, #353434 100%);
-    color: #e8e8e8;
-    line-height: 1.5;
-    border-radius: 5px;
-    pointer-events: none;
-    transform: translateY(-96%);
-    transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
+  background-color: #e8e8e862;
+}
 
-  }
+.card-blog .front-content {
+  width: 100%;
+  height: 100%;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
 
-  .card-blog:hover .content {
-    transform: translateY(0);
-  }
+.card-blog .front-content p {
+  font-size: 35px;
+  font-weight: 700;
+  opacity: 1;
+  background: #ffde59;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1)
+}
 
-  .card-blog:hover .front-content {
-    transform: translateY(30%);
-  }
+.card-blog .content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(-45deg, #FFDE59 0%, #664d03 50%, #353434 100%);
+  color: #e8e8e8;
+  line-height: 1.5;
+  border-radius: 5px;
+  pointer-events: none;
+  transform: translateY(-96%);
+  transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
 
-  .card-blog:hover .front-content p {
-    opacity: 0;
-  }
-  .blog-principal{
-    background-image: url(../assets/blog-img/topico0.jpg);
-    background-position:  center;
-    background-size: cover;
-  }
- 
+}
+
+.card-blog:hover .content {
+  transform: translateY(0);
+}
+
+.card-blog:hover .front-content {
+  transform: translateY(30%);
+}
+
+.card-blog:hover .front-content p {
+  opacity: 0;
+}
+
+.blog-principal {
+  background-image: url(../assets/blog-img/artigo0.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* imagens dos topicos do blog  */
+.img-artigo-blog{
+  width: 200px;
+  height: 250px;
+}
