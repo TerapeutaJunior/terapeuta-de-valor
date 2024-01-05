@@ -322,11 +322,12 @@ color:#C69016 ;
   opacity: 0;
 }
 
-.blog-principal {
+.blog-principal, .index-blog {
   background-image: url(../assets/blog-img/artigo0.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  opacity: 1;
 }
 
 /* imagens dos topicos do blog  */
