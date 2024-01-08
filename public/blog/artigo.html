@@ -3,12 +3,12 @@
 
 <head>
     <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Sheila Acunha" />
-  <meta name="description"
-    content="Terapia online para promover o autoconhecimento, Desenvolvimento Pessoal e o bem-estar emocional. Livrar-se de vez dos traumas, Ansiedade, Depressão, Estresse. " />
-  <meta name="keywords" content="HTMLS, CSS, js" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Sheila Acunha" />
+    <meta name="description"
+        content="Terapia online para promover o autoconhecimento, Desenvolvimento Pessoal e o bem-estar emocional. Livrar-se de vez dos traumas, Ansiedade, Depressão, Estresse. " />
+    <meta name="keywords" content="HTMLS, CSS, js" />
     <!-- favicon -->
     <link rel="shortcut icon" href="../assets/logo2.png" type="image/x-icon" />
     <!-- bs -->
@@ -28,16 +28,28 @@
 </head>
 
 <body>
+    <header class="border-bottom " title="clique para voltar ao blog">
+        <a class="btn btn-sm btn-voltar " href="../../blog.html">
+            <i class="bi bi-arrow-left-short"></i>
+        </a>
+
+    </header>
     <main class="container">
         <section class="row">
-            <div class="col-12" id="conteudo-artigo">
+            <div class="col-12 my-3" id="conteudo-artigo">
                 <!-- AQUI TUDO É CRIADO PELO JS -->
             </div>
-
-            <div class="col-12">
-                <p>Obrigado por ler! Até a próxima vez! <a href="../../blog.html">Voltar ao blog</a></p>
-            </div>
         </section>
+         <section class="row my-5">
+                <div class="col-12">
+                    <p>Obrigado por chegar até aqui. Até a próxima vez!</p>
+                    <a title="clique para voltar ao blog"
+                        href="../../blog.html">
+                        Voltar
+                        ao blog
+                    </a>
+                </div>
+            </section>
         </div>
     </main>
     <a target="_blank"
@@ -45,23 +57,23 @@
         class="btn button-float d-flex align-items-center justify-content-center">
         <i class="bi bi-whatsapp bi-wts"></i>
     </a>
-    <footer class="container-fluid py-3">
-        <div class="row align-items-center justify-content-around">
-            <div class="col-sm-6 col-lg-3 d-none d-lg-block">
-                <small class="text-muted"> &copy; 2023 &middot; by
-                    <a class="text-muted text-decoration-none sheila" target="_blank"
-                        title="Clique aqui e faça seu orçamento."
-                        href="https://sheilaacunha.github.io/CurriculoComBootstrap/"> @Sheilaacunha </a>&middot;
-                </small>
-            </div>
-            <div class="col-sm-6 col-lg-6 text-center">
-                <a class="topo text-warning-emphasis text-decoration-none" href="#">
-                   <i class="bi bi-arrow-up-short"></i>
-                </a>
-            </div>
+   <footer class="container-fluid  border-top">
+    <div class="row align-items-center">
+      <div class="col-sm-6 col-lg-6 ">
+        <small class="text-muted">2023 &middot; &#169; All rights reserved by
+          <a class="text-muted fw-bold text-decoration-none sheila" target="_blank"
+            title="Clique aqui e faça seu orçamento." href="https://sheilaacunha.github.io/CurriculoComBootstrap/">
+            Sheila Acunha </a>&middot;
+        </small>
+      </div>
+      <div class="col-sm-6 col-lg-6 text-center pulsar">
+        <a class="text-warning-emphasis text-decoration-none topo" title="clique para subir a página" href="#">
+          <i class="bi bi-arrow-up-short"></i>
+        </a>
+      </div>
 
-        </div>
-    </footer>
+    </div>
+  </footer>
 
     <script src="./artigo.js"></script>
 </body>

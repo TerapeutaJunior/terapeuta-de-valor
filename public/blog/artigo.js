@@ -88,7 +88,7 @@ const artigos = [
             url: ''
         },
         conteudo: {
-            tituloPrincipal: 'Como sair da prisão emocional e alcançar seus objetivos.',
+            tituloPrincipal: 'Como sair da prisão emocional e alcançar seus objetivos',
             resumo: 'Olá, seja bem-vindo! Neste artigo, vamos discutir sobre como sair da prisão emocional e alcançar seus objetivos. Muitas vezes, estamos presos em um ciclo vicioso, procrastinando e não conseguindo atingir nossos objetivos. Mas a boa notícia é que existe uma saída para isso.',
             subtopicos: [
                 {
@@ -114,7 +114,7 @@ const artigos = [
                         disponivel: true,
                         itens: [
                             {
-                                descricao: 'Identifique seus objetivos:',
+                                descricao: 'Identifique seus objetivos',
                                 detalhamento: 'O primeiro passo para alcançar seus objetivos é identificá-los claramente. Pense no que você deseja conquistar na sua vida e escreva seus objetivos de forma específica. Tenha claro sobre o que você quer é fundamental para dar os próximos passos.'
                             },
                             {
@@ -141,7 +141,7 @@ const artigos = [
             ],
             conclusao: {
                 disponivel: true,
-                conteudo: 'Não fique preso na prisão emocional. Você tem o poder de sair desse ciclo vicioso e alcançar seus objetivos. Não perca essa oportunidade de transformar sua vida. Entre em contato conosco e permita-nos ajudar nessa jornada emocionante. Vamos juntos conquistando um futuro brilhante e cheio de realizações. Aguardo seu <a  href="https://wa.me/+5521997519354" target="_blank" title="Click aqui para entrar em contato.">contato</a>!'
+                conteudo: 'Não fique preso na prisão emocional. Você tem o poder de sair desse ciclo vicioso e alcançar seus objetivos. Não perca essa oportunidade de transformar sua vida. Entre em contato conosco e permita-nos ajudar nessa jornada emocionante. Vamos juntos conquistando um futuro brilhante e cheio de realizações. Aguardo seu contato.'
             }
         }
     },

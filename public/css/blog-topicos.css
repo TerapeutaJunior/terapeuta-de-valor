@@ -1,10 +1,51 @@
-body {
-  background-color: aliceblue;
-}
+
 
 footer div div small {
     font-size: 12px;
 }
+.button-float{
+  bottom: 6rem;
+  right: 2rem;
+}
+
+.btn-voltar {
+  animation: scroll-arrow 3s infinite;
+}
+
+.btn-voltar i {
+  font-size: 32px;
+  text-shadow: 1px 2px 10px #88888860, 1px 2px 5px #88888860;
+}
 
 
+@keyframes scroll-arrow {
+  0% {
+    transform: translateX(.6rem);
+    opacity: 1;
+  }
+  25%{
+    transform: translateX(.3rem);
+  }
 
+  50% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  75%{
+    transform: translateX(-.3rem);
+  }
+
+  100% {
+    transform: translateX(-.6rem);
+    opacity: 1;
+  }
+}
+
+/* pagina dos topicos */
+#conteudo-artigo h1{
+ text-align: center;
+}
+#conteudo-artigo iframe{
+ width: 100%;
+
+}

@@ -93,10 +93,11 @@
 
 .topo i {
     font-size: 32px;
+    text-shadow: 1px 2px 10px #88888860, 1px 2px 5px #88888860;
 }
 
 .topo i:hover {
-    color: #FFDE59;
+    text-shadow: none;
 }
 
 @keyframes scroll-down {
