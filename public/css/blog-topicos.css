@@ -1,3 +1,8 @@
-body{
-    background-color: aquamarine;
+body {
+  background-color: aliceblue;
 }
+
+footer div div small {
+    font-size: 12px;
+}
+

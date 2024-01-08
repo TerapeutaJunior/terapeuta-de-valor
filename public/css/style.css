@@ -1,22 +1,3 @@
-:root {
-  --body-bg-color-texto: #4D0F10;
-  --body-bg-color-titulo: #BA8712;
-  --body-bg-color-fundo: #FBFAFF;
-  --body-bg-color-transparente: #ffde5918;
-  --body-bg-color-dourado: #664d03;
-  --body-bg-color-hover: #fff3cd;
-  --body-bg-color: #C69016;
-  --body-bg-color: #020202;
-
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-}
-
 .nav-item a {
   border-radius: 5px;
   transform: background-color .2s;
@@ -30,129 +11,6 @@
 .navul {
   width: 100%;
   justify-content: end;
-}
-
-.featurette-divider {
-  width: 50%;
-}
-
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-.featurette-heading {
-  letter-spacing: -.05rem;
-  text-shadow: 1px 1px 1px black, 0 0 25px var(--body-bg-color-dourado), 0 0 5px #FFDE59;
-  margin: 20px;
-  color: #664d03;
-}
-
-footer div div small {
-  font-size: 12px;
-}
-
-.sheila:hover {
-
-  color: white !important;
-  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
-}
-
-.topo {
-  border-radius: 5px;
-  padding: 5px;
-  display: inline-flex;
-  transition: transform .4s, background-color .2s;
-}
-
-.topo:hover {
-  transform: translateY(-.3rem) !important;
-  background-color: #fff3cd;
-
-}
-
-.btn-header-whats:hover,
-.btn-blog:hover {
-  box-shadow: 1px 2px 10px #88888860, 1px 2px 5px #88888860;
-}
-
-footer {
-  border-top: 1px solid rgba(0, 0, 0, 0.164);
-  box-shadow: 5px 10px 8px 10px #888888;
-  margin-top: 10px;
-}
-
-footer div ul li {
-  margin-top: 10px;
-  border-radius: 10px;
-  width: 50px;
-  height: 50px;
-
-}
-
-footer div ul li a i {
-  font-size: 26px;
-}
-
-footer div ul li:hover {
-  background-color: #fff3cd;
-}
-/* icons */
-
-.bi-instagram:hover {
-  color: #bf3bc4;
-
-}
-.bi-whatsapp:hover{
-color: #25d366;
-}
-.bi-house-fill:hover{
-color:#C69016 ;
-}
-.bi-youtube:hover {
-  color: red;
-}
-
-.bi-facebook:hover {
-  color: blue;
-}
-
-@media (min-width: 40em) {
-  .carousel-caption p {
-    margin-bottom: 1.25rem;
-    font-size: 1.25rem;
-    line-height: 1.4;
-  }
-
-  .featurette-heading {
-    font-size: 50px;
-  }
-}
-
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-
-}
-
-.b-example-vr {
-  flex-shrink: 0;
-  width: 1.5rem;
-  height: 100vh;
-}
-
-.bi {
-  vertical-align: -.125em;
-
 }
 
 .nav-scroller {
@@ -172,18 +30,84 @@ color:#C69016 ;
   white-space: nowrap;
   -webkit-overflow-scrolling: touch;
 }
+.featurette-heading {
+  letter-spacing: -.05rem;
+  text-shadow: 1px 1px 1px black, 0 0 25px var(--body-bg-color-dourado), 0 0 5px #FFDE59;
+  margin: 20px;
+  color: #664d03;
+}
+.featurette-divider {
+  width: 50%;
+}
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.featurette-heading {
+  letter-spacing: -.05rem;
+  text-shadow: 1px 1px 1px black, 0 0 25px var(--body-bg-color-dourado), 0 0 5px #FFDE59;
+  margin: 20px;
+  color: #664d03;
+}
+
+.btn-header-whats:hover,
+.btn-blog:hover {
+  box-shadow: 1px 2px 10px #88888860, 1px 2px 5px #88888860;
+}
+
+/* icons */
+
+.bi-instagram:hover {
+  color: #bf3bc4;
+}
+
+.bi-whatsapp:hover {
+  color: #25d366;
+}
+
+.bi-house-fill:hover {
+  color: #C69016;
+}
+
+.bi-youtube:hover {
+  color: red;
+}
+
+.bi-facebook:hover {
+  color: blue;
+}
 
 /* depoimentos */
-.foto {
+.glider-contain {
+
   position: relative;
+  margin-bottom: 30px;
+  width: 90%;
+  min-height: 400px;
+}
+
+.glider {
+  position: relative;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: none;
+  transform: translateZ(0);
   width: 100%;
+  height: 90%;
+}
+
+.foto {
+  margin: 5px;
+  position: relative;
   box-shadow: 1px 2px 10px #88888834, 1px 2px 5px #88888834;
 }
 
 .image {
+  object-fit: contain;
   opacity: 1;
   display: block;
-  width: 100%;
   height: auto;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -191,13 +115,20 @@ color:#C69016 ;
 }
 
 .middle {
+
   transition: .5s ease;
   opacity: 0;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%)
+  -ms-transform: translate(-50%, -50%);
+  border-radius: 5px;
+  font-size: 14px;
+  padding: 8px 8px;
+  width: 100%;
+  height: 100%;
+
 }
 
 .foto:hover .image {
@@ -208,47 +139,18 @@ color:#C69016 ;
   opacity: 1;
 }
 
-.text {
-  border-radius: 10px;
-  font-size: 16px;
-  padding: 8px 16px;
-  width: 100%;
+.card-body {
+  flex: none;
 }
 
-/* button float */
-.button-float {
-  border-radius: 100%;
-  height: 60px;
-  width: 60px;
-  position: fixed;
-  padding: 0 !important;
-  bottom: 1rem;
-  right: 2rem;
-  font-size: 35px;
-  color: #fff;
-  background-color: #25d366;
-  border: none;
-}
 
-.button-float:hover {
-  background-color: #25d366 !important;
-}
-
-.btn-w-float:hover {
-  color: #FFDE59;
-  box-shadow: 2px 2px 4px #FFDE59;
-}
-.btn-w-float .bi-wts:hover{
-  color: #FFDE59;
-
-}
 
 /* sessao conhecimentos */
 .card-blog-container {
   width: 100%;
   height: 400px;
   position: relative;
-  border-radius: 10px;
+  border-radius: 5px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
   background-repeat: no-repeat;
@@ -258,7 +160,6 @@ color:#C69016 ;
 
 .emocional {
   background-image: url(../assets/conhecimentos/emocional.jpg);
-
 }
 
 .massoterapia {
@@ -272,9 +173,6 @@ color:#C69016 ;
 .card-blog {
   width: 100%;
   height: 100%;
-  border-radius: inherit;
-
-  background-color: #e8e8e862;
 }
 
 .card-blog .front-content {
@@ -307,7 +205,6 @@ color:#C69016 ;
   pointer-events: none;
   transform: translateY(-96%);
   transition: all 0.6s cubic-bezier(0.23, 1, 0.320, 1);
-
 }
 
 .card-blog:hover .content {
@@ -322,16 +219,144 @@ color:#C69016 ;
   opacity: 0;
 }
 
-.blog-principal, .index-blog {
+/* blog */
+.blog-principal {
   background-image: url(../assets/blog-img/artigo0.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  opacity: 1;
+
 }
 
 /* imagens dos topicos do blog  */
-.img-artigo-blog{
+.img-artigo-blog {
   width: 200px;
   height: 250px;
+  object-fit: cover;
+}
+
+/* footer */
+.footer-index {
+  border-top: 1px solid rgba(0, 0, 0, 0.164);
+  box-shadow: 5px 10px 8px 10px #888888;
+  margin-top: 15px;
+}
+
+.footer-index div ul li {
+  margin-top: 10px;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+
+}
+
+.footer-index div ul li a i {
+  font-size: 26px;
+}
+
+.footer-index div ul li:hover {
+  background-color: #fff3cd;
+}
+
+.footer-index div div small,
+.footer-blog div div small {
+  font-size: 12px;
+}
+
+.topo {
+  width: 40px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background-color .4s;
+  animation: scroll-down 3s infinite;
+}
+
+.topo i {
+  font-size: 32px;
+}
+
+.topo i:hover {
+  color: #FFDE59;
+}
+
+@keyframes scroll-down {
+  0% {
+    transform: translateY(1rem);
+    opacity: 1;
+  }
+
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(-1remrem);
+    opacity: 1;
+  }
+}
+
+
+@media screen and (max-width: 576px) {
+  .blog-principal {
+    border-radius: 0 !important;
+    padding: 15px;
+  }
+
+  .footer-div-topo {
+    order: 1;
+  }
+
+  .footer-div-copy {
+    order: 2;
+  }
+
+  .order-1-topo {
+    order: 1;
+  }
+
+  .order-2-icon {
+    order: 2;
+    align-items: center;
+  }
+
+  .order-3-sheila {
+    order: 3;
+  }
+
+  .order-1-topo,
+  .order-2-icon,
+  .order-3-sheila,
+  .footer-div-topo,
+  .footer-div-copy {
+    justify-content: center;
+    display: flex;
+  }
+
+  .button-float {
+    bottom: 2rem;
+    right: 1rem;
+  }
+
+  ol,
+  ul {
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+
+}
+
+@media (min-width: 40em) {
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .button-float {
+    bottom: 6.5rem;
+    right: 2rem;
+  }
 }

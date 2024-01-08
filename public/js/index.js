@@ -70,6 +70,7 @@ function montarLinks() {
         li.appendChild(a);
         ul.appendChild(li);
     }
+
 }
 
 function trocarLogo() {
@@ -83,6 +84,8 @@ function trocarLogo() {
     logoLink.href = conteudo.icone.linkLogo;
     logoLink.appendChild(imageLogo);
 }
+
+
 function aplicaFontePadrao() {
     document.querySelector('body').style = `font-family: ${conteudo.fonts.body}`
 }

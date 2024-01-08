@@ -1,0 +1,117 @@
+:root {
+    --body-bg-color-texto: #4D0F10;
+    --body-bg-color-titulo: #BA8712;
+    --body-bg-color-fundo: #FBFAFF;
+    --body-bg-color-transparente: #ffde5918;
+    --body-bg-color-dourado: #664d03;
+    --body-bg-color-hover: #fff3cd;
+    --body-bg-color: #C69016;
+    --body-bg-color: #020202;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* button float */
+.button-float {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    position: fixed;
+    padding: 0 !important;
+    font-size: 35px;
+    color: #fff;
+    background-color: #25d366;
+    border: none;
+    z-index: 1000;
+}
+
+.button-float::before,
+.button-float::after {
+    content: '';
+    display: block;
+    position: absolute;
+    border: 2px double #25d366;
+    border-radius: 100%;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    top: -5px;
+    animation: animar 1.5s linear infinite;
+    opacity: 0;
+}
+
+.button-float::after {
+    animation-delay: .8s;
+}
+
+@keyframes animar {
+    0% {
+        transform: scale(0.5);
+        opacity: 0;
+
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+.button-float:hover {
+    background-color: #25d366 !important;
+    color: #FFDE59;
+    box-shadow: 2px 2px 4px #FFDE59;
+}
+
+.button-float i:hover {
+    color: #FFDE59;
+}
+
+/* footer sheila */
+.sheila:hover {
+    color: white !important;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+/* btn topo */
+.topo {
+    display: grid;
+    place-items: center;
+    cursor: pointer; 
+    animation: scroll-down 3s infinite;
+}
+
+.topo i {
+    font-size: 32px;
+}
+
+.topo i:hover {
+    color: #FFDE59;
+}
+
+@keyframes scroll-down {
+    0% {
+        transform: translateY(.6rem);
+        opacity: 1;
+    }
+
+    50% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(-.6rem);
+        opacity: 1;
+    }
+}

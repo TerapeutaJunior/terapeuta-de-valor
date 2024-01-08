@@ -20,26 +20,30 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
     <!-- css -->
-    <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/blog-topicos.css">
+    <!-- root -->
+    <link rel="stylesheet" href="../css/root.css">
     <title>Terapeuta de Valor</title>
 </head>
 
 <body>
     <main class="container">
         <section class="row">
-            <div class="col">
-                <h1>
-                   Mais um ciclo está se fechando em nossas vidas, e você ai parado , procrastinando?
-                  Até quando você vai procrastinar?
-                </h1>
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/ibLBG9OhIpk?si=teGhrc2pjQMEjfHe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <p>
-                    Obrigado por assistir! Até a próxima vez! <a href="../../blog.html">Voltar ao blog</a></p>
+            <div class="col-12" id="conteudo-artigo">
+                <!-- AQUI TUDO É CRIADO PELO JS -->
+            </div>
+
+            <div class="col-12">
+                <p>Obrigado por ler! Até a próxima vez! <a href="../../blog.html">Voltar ao blog</a></p>
+            </div>
         </section>
         </div>
-
     </main>
+    <a target="_blank"
+        href="https://wa.me/+5521997519354?text=Olá%20Junior%20estava%20no%20seu%20site,%20gostaria%20de%de%mais%informações."
+        class="btn button-float d-flex align-items-center justify-content-center">
+        <i class="bi bi-whatsapp bi-wts"></i>
+    </a>
     <footer class="container-fluid py-3">
         <div class="row align-items-center justify-content-around">
             <div class="col-sm-6 col-lg-3 d-none d-lg-block">
@@ -50,12 +54,15 @@
                 </small>
             </div>
             <div class="col-sm-6 col-lg-6 text-center">
-                <a class="topo text-warning-emphasis text-decoration-none" href="#">&middot; Voltar ao Topo &middot;</a>
+                <a class="topo text-warning-emphasis text-decoration-none" href="#">
+                   <i class="bi bi-arrow-up-short"></i>
+                </a>
             </div>
 
         </div>
     </footer>
 
+    <script src="./artigo.js"></script>
 </body>
 
 </html>
